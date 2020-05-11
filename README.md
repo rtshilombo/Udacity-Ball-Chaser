@@ -10,7 +10,7 @@ The world.launch file should launch your world with the white-colored ball and y
 
 
 ## ball_chaser:
-Create a ball_chaser ROS package to hold your C++ nodes.
+- Create a ball_chaser ROS package to hold your C++ nodes.
 Write a drive_botC++ node that will provide a ball_chaser/command_robot service to drive the robot by controlling its linear x and angular z velocities. The service should publish to the wheel joints and return back the requested velocities.
-Write a process_image C++ node that reads your robot’s camera image, analyzes it to determine the presence and position of a white ball. If a white ball exists in the image, your node should request a service via a client to drive the robot towards it.
+- Write a process_image C++ node that reads your robot’s camera image, analyzes it to determine the presence and position of a white ball. If a white ball exists in the image, your node should request a service via a client to drive the robot towards it.
 The ball_chaser.launch should run both the drive_bot and the process_image nodes.
