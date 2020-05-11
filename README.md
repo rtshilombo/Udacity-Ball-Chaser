@@ -1,10 +1,10 @@
 # Udacity-Ball-Chaser
 
 ## drive_bot:
-Create a my_robot ROS package to hold your robot, the white ball, and the world.
+- Create a my_robot ROS package to hold your robot, the white ball, and the world.
 Design a differential drive robot with the Unified Robot Description Format. Add two sensors to your robot: a lidar and a camera. Add Gazebo plugins for your robot’s differential drive, lidar, and camera.  
 
-*House your robot inside the world you built in the Build My World project.
+- House your robot inside the world you built in the Build My World project.
 Add a white-colored ball to your Gazebo world and save a new copy of this world.
 The world.launch file should launch your world with the white-colored ball and your robot.
 
